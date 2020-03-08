@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  line-height: 1.3;
+  margin: 0 auto 0 auto;
+  padding-top: 150px;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: none;
+  border-top: dotted #D8DFDF 5px;
+  width: 4%;
+}
+
+p {
+  font-size: .95rem;
+  font-weight: bold;
+  color: #40514E;
+}
+
+li {
+  list-style-type: none;
+  float: left;
+  padding: 20px;
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+/*-----------------CLASSES-----------------------*/
+.flowers {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.contact-message {
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #f2fcfc;
+  padding-top: 1px;
+}
+
+.middle-container {
+  padding-bottom: 30px;
+}
+.navbar {
+  position: fixed;
+  margin-top: 0;
+  right: 60px;
+  background-color: transparent;
+}
+.bottom-container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 360px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 175px;
+  top: 130px;
+}
+
+.profile {
+  padding-top: 60px;
+}
+
+.coding-pic {
+  border-radius: 100%;
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.brain-pic {
+  border-radius: 50%;
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.introduction {
+  width: 25%;
+  margin: auto;
+  line-height: 2;
+  color: #40514E;
+  margin-bottom: 60px;
+}
+
+.skills {
+  margin-top: 60px;
+}
+
+.skill-description-top {
+  width: 95%;
+}
+
+.skill-description-bottom {
+  width: 95%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 40px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.contact-me {
+  padding-top: 30px;
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+.btn {
+  background-color: #66BFBF;
+  border-radius: 15px;
+  border: 1px solid #11999E;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #11999E;
+  margin: 25px auto;
+}
+
+.btn:hover {
+  background-color: #11999E;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  margin: 10px;
+  font-size: .9rem;
+  font-weight: bold;
+}
